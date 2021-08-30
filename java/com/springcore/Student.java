@@ -1,13 +1,13 @@
 package com.springcore;
 
 public class Student {
-	private int Id;
+	private Integer Id;
 	private String studentName;
 	private String studentAddress;
-	public int getId() {
+	public Integer getId() {
 		return Id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		Id = id;
 	}
 	public String getStudentName() {
@@ -22,7 +22,7 @@ public class Student {
 	public void setStudentAddress(String studentAddress) {
 		this.studentAddress = studentAddress;
 	}
-	public Student(int id, String studentName, String studentAddress) {
+	public Student(Integer id, String studentName, String studentAddress) {
 		super();
 		Id = id;
 		this.studentName = studentName;
