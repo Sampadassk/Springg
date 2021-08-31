@@ -12,7 +12,7 @@
  	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context.xsd">
 
-	1. VALUE AS ELEMENT
+	 VALUE AS ELEMENT
   		<bean class="com.springcore.Student" name="student1">
 		<property name="Id">
 			<value>1234</value>
@@ -30,7 +30,7 @@
 
 	</beans>
 
-2.VALUE AS ATTRIBUTE
+	VALUE AS ATTRIBUTE
     		<property name="Id" value="1234" />
 		
 	
@@ -40,7 +40,7 @@
 		<property name="studentAddress" value="Gulbarga" />
     
     
-3.USING P SCHEMA
+	USING P SCHEMA
 		<bean class="com.springcore.Student" name="student1"  p:Id="222"  p:studentName="sampada"  p:studentAddress="gulbarga"  />	
 	
 
