@@ -13,7 +13,7 @@
 	http://www.springframework.org/schema/context/spring-context.xsd">
 
 	1. VALUE AS ELEMENT
-  <bean class="com.springcore.Student" name="student1">
+  		<bean class="com.springcore.Student" name="student1">
 		<property name="Id">
 			<value>1234</value>
 		</property>
@@ -25,15 +25,15 @@
 		<property name="studentAddress">
 			<value>Gulbarga</value>
 
-		</property>
-	</bean>
+			</property>
+		</bean>
 
-</beans>
+	</beans>
 
 2.VALUE AS ATTRIBUTE
-    <property name="Id" value="1234" />
+    		<property name="Id" value="1234" />
 		
-
+	
 		<property name="studentName" value="Sampada Kulkarni" />
 		
 
@@ -41,7 +41,7 @@
     
     
 3.USING P SCHEMA
-<bean class="com.springcore.Student" name="student1"  p:Id="222"  p:studentName="sampada"  p:studentAddress="gulbarga"  />	
+		<bean class="com.springcore.Student" name="student1"  p:Id="222"  p:studentName="sampada"  p:studentAddress="gulbarga"  />	
 	
 
 
