@@ -12,12 +12,16 @@
 	<bean class="com.springcore.ref.B" name="bref">
 		<property name="y" value="90" />
 	</bean>
+	
+	<bean class="com.spring.ref.A" name"aref" p:x="33" p:ob-ref="bref" />
 
-	<bean class="com.springcore.ref.A" name="aref ">
+	<!--<bean class="com.springcore.ref.A" name="aref ">
 		<property name="x" value="12" />
 		<property name="ob">
 			<ref bean="bref" />
 		</property>
+		<property name="ob" ref="bref" />
 	</bean>
+	-->
 
 </beans>
