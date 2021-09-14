@@ -7,7 +7,10 @@ public class stereoo {
 	public static void main(String[] args) {
 		ApplicationContext con=new ClassPathXmlApplicationContext("com/springcore/streotype/stereoconfig.xml"); 
 		Student student = con.getBean("obj",Student.class);
-		//System.out.println(student);
+		System.out.println(student.hashCode());
+		Student student2=con.getBean("obj",Student.class);
+		System.out.println(student2.hashCode());
+
 		
 
 }
